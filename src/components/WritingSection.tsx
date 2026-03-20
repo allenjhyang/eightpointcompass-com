@@ -1,0 +1,119 @@
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
+
+export function WritingSection() {
+  const ref = useScrollAnimation()
+
+  const columnOne = {
+    topic: 'AI Strategy',
+    articles: [
+      {
+        title: 'Article Title One',
+        description: 'A short description of the article topic.',
+        href: '#',
+      },
+      {
+        title: 'Article Title Two',
+        description: 'A short description of the article topic.',
+        href: '#',
+      },
+      {
+        title: 'Article Title Three',
+        description: 'A short description of the article topic.',
+        href: '#',
+      },
+    ],
+  }
+
+  const columnTwo = {
+    topic: 'Product Leadership',
+    articles: [
+      {
+        title: 'Article Title One',
+        description: 'A short description of the article topic.',
+        href: '#',
+      },
+      {
+        title: 'Article Title Two',
+        description: 'A short description of the article topic.',
+        href: '#',
+      },
+      {
+        title: 'Article Title Three',
+        description: 'A short description of the article topic.',
+        href: '#',
+      },
+    ],
+  }
+
+  return (
+    <section id="writing" className="py-24 px-6 md:px-12 bg-epc-bg-alt">
+      <div className="max-w-[960px] mx-auto">
+        <div
+          ref={ref}
+          className="opacity-0 translate-y-4 transition-all duration-1000 ease-out"
+        >
+          <h2 className="font-headings text-3xl md:text-4xl text-epc-navy mb-6">
+            Thinking &amp; Writing
+          </h2>
+
+          <p className="font-body text-lg text-epc-text-light mb-14">
+            I write about AI strategy, product leadership, and building in the
+            current moment.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 mb-14">
+            <div>
+              <h3 className="font-headings text-lg text-epc-navy font-semibold mb-6 pb-3 border-b border-epc-gold/30">
+                {columnOne.topic}
+              </h3>
+              <div className="space-y-6">
+                {columnOne.articles.map((article, index) => (
+                  <div key={index} className="group">
+                    <a href={article.href} className="block">
+                      <h4 className="font-headings text-base text-epc-navy mb-1 group-hover:text-epc-gold transition-colors">
+                        {article.title}
+                      </h4>
+                      <p className="font-body text-sm text-epc-text-light leading-relaxed">
+                        {article.description}
+                      </p>
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-headings text-lg text-epc-navy font-semibold mb-6 pb-3 border-b border-epc-gold/30">
+                {columnTwo.topic}
+              </h3>
+              <div className="space-y-6">
+                {columnTwo.articles.map((article, index) => (
+                  <div key={index} className="group">
+                    <a href={article.href} className="block">
+                      <h4 className="font-headings text-base text-epc-navy mb-1 group-hover:text-epc-gold transition-colors">
+                        {article.title}
+                      </h4>
+                      <p className="font-body text-sm text-epc-text-light leading-relaxed">
+                        {article.description}
+                      </p>
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="#"
+            className="font-body text-sm text-epc-navy hover:text-epc-gold transition-colors group inline-flex items-center font-medium"
+          >
+            Read more on Substack
+            <span className="ml-1 group-hover:translate-x-1 transition-transform">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  )
+}

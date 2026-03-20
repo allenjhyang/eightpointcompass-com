@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --epc-navy: #1B2A4A;
+  --epc-bg: #F7F6F3;
+  --epc-charcoal: #2D2D2D;
+  --epc-gold: #B8943E;
+  --epc-bg-alt: #F0EFEB;
+  --epc-text-light: #6B6B6B;
+}
+
+@layer base {
+  body {
+    @apply bg-epc-bg text-epc-charcoal;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
