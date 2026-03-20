@@ -7,19 +7,19 @@ export function WritingSection() {
     topic: 'AI Strategy',
     articles: [
       {
-        title: 'Article Title One',
-        description: 'A short description of the article topic.',
-        href: '#',
+        title: "AI isn't eating SaaS, it's racing against it",
+        description: 'The stock selloff is justified. But not for the reason most people think.',
+        href: 'https://allenjhyang.substack.com/p/ai-isnt-eating-saas-its-racing-against',
       },
       {
-        title: 'Article Title Two',
-        description: 'A short description of the article topic.',
-        href: '#',
+        title: 'The data moat is dead. Long live the data moat.',
+        description: 'Friction used to keep customers locked in. Now the moat has to actually earn its keep.',
+        href: 'https://allenjhyang.substack.com/p/the-data-moat-is-dead-long-live-the',
       },
       {
-        title: 'Article Title Three',
-        description: 'A short description of the article topic.',
-        href: '#',
+        title: 'Product reflections & predictions on OpenClaw',
+        description: 'What OpenClaw means for those of us in Product',
+        href: 'https://allenjhyang.substack.com/p/product-reflections-and-predictions',
       },
     ],
   }
@@ -28,19 +28,14 @@ export function WritingSection() {
     topic: 'Product Leadership',
     articles: [
       {
-        title: 'Article Title One',
-        description: 'A short description of the article topic.',
-        href: '#',
+        title: "AI's impact on PM",
+        description: "AI won't eliminate the product manager. It will fork the role into two distinct species",
+        href: 'https://allenjhyang.substack.com/p/ais-impact-on-pm-part-1-the-pm-role',
       },
       {
-        title: 'Article Title Two',
-        description: 'A short description of the article topic.',
-        href: '#',
-      },
-      {
-        title: 'Article Title Three',
-        description: 'A short description of the article topic.',
-        href: '#',
+        title: 'OpenClaw (Clawdbot) explained for non-technical people',
+        description: 'What it is, what it can do, and why people are all abuzz about it',
+        href: 'https://allenjhyang.substack.com/p/openclaw-clawdbot-explained-for-non',
       },
     ],
   }
@@ -104,7 +99,7 @@ export function WritingSection() {
           </div>
 
           <a
-            href="#"
+            href="https://allenjhyang.substack.com/"
             className="font-body text-sm text-epc-navy hover:text-epc-gold transition-colors group inline-flex items-center font-medium"
           >
             Read more on Substack

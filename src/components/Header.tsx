@@ -25,7 +25,7 @@ export function Header() {
   }
 
   const navLinks = [
-    { name: 'What I Do', href: '#what-i-do' },
+    { name: 'Services', href: '#what-i-do' },
     { name: 'About', href: '#about' },
     { name: 'Writing', href: '#writing' },
     { name: 'Contact', href: '#contact' },
@@ -42,7 +42,7 @@ export function Header() {
           className="flex items-center gap-2.5 font-headings text-xl md:text-2xl font-semibold text-epc-navy tracking-tight"
         >
           <img
-            src="https://cdn.magicpatterns.com/uploads/nasu6ovqNbifrZ89QkM8SW/EPC_Final_logo_black_(1).png"
+            src="/epc_logo_black.png"
             alt="Eight Point Compass logo"
             className="h-7 md:h-8 w-auto"
           />

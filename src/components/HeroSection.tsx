@@ -11,7 +11,7 @@ export function HeroSection() {
     >
       <div
         ref={ref}
-        className="max-w-3xl mx-auto text-center opacity-0 translate-y-4 transition-all duration-1000 ease-out"
+        className="max-w-[960px] mx-auto text-center opacity-0 translate-y-4 transition-all duration-1000 ease-out"
       >
         <h1 className="font-headings text-4xl md:text-5xl lg:text-6xl text-epc-navy leading-tight mb-8">
           AI strategy and product leadership for companies navigating what's
@@ -20,7 +20,7 @@ export function HeroSection() {
 
         <div className="flex justify-center mb-8">
           <img
-            src="https://cdn.magicpatterns.com/uploads/nasu6ovqNbifrZ89QkM8SW/EPC_Final_logo_black_(1).png"
+            src="/epc_logo_black.png"
             alt=""
             aria-hidden="true"
             className="h-12 md:h-14 w-auto opacity-20"
@@ -29,8 +29,8 @@ export function HeroSection() {
 
         <p className="font-body text-lg md:text-xl text-epc-text-light font-light leading-relaxed mb-12 max-w-2xl mx-auto">
           Eight Point Compass helps growth-stage companies and PE-backed
-          portfolios cut through the AI noise — identifying where AI creates
-          real operational value, then building the roadmap to get there.
+          portfolios <span className="text-epc-gold">cut through the AI noise</span>, identifying where AI creates
+          real operational value, building the roadmap to get there, and executing efficiently.
         </p>
 
         <div className="flex flex-col items-center space-y-6">
@@ -39,11 +39,19 @@ export function HeroSection() {
             size="lg"
             className="bg-epc-navy hover:bg-epc-navy/90 text-white font-body text-base px-8 py-6 rounded-none transition-all hover:shadow-lg"
           >
-            <a href="mailto:allen@eightpointcompass.com">Get in Touch</a>
+            <a
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault()
+                document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })
+              }}
+            >
+              Get in Touch
+            </a>
           </Button>
 
           <a
-            href="https://allenyang.com"
+            href="https://www.linkedin.com/in/allenjhyang/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-body text-sm text-epc-text-light hover:text-epc-navy transition-colors group flex items-center"
