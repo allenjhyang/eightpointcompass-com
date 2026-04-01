@@ -14,8 +14,8 @@ export function HeroSection() {
         className="max-w-[960px] mx-auto text-center opacity-0 translate-y-4 transition-all duration-1000 ease-out"
       >
         <h1 className="font-headings text-4xl md:text-5xl lg:text-6xl text-epc-navy leading-tight mb-8">
-          AI strategy and product leadership for companies navigating what's
-          next.
+          <span className="text-epc-gold">AI Strategy &amp; Product Leadership</span>{' '}
+          for Established Businesses
         </h1>
 
         <div className="flex justify-center mb-8">

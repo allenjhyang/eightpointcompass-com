@@ -19,7 +19,7 @@ export function ContactFooter() {
             </h2>
 
             <p className="font-body text-lg text-white/80 leading-relaxed mb-12 max-w-2xl">
-              If my AI & Product consulting services can be useful for you, I'd love to hear from you:
+              Whether you're assessing AI readiness across a portfolio of companies or looking for help translating AI into product strategy at a single company, I'd love to hear from you.
             </p>
 
             <a

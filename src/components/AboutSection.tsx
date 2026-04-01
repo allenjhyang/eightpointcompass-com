@@ -26,7 +26,7 @@ export function AboutSection() {
                   Most recently, I was the founder and CEO of a VC-backed, AI-native startup, and before that the VP of Product at a growth-stage company, where I helped scale the company 10x in headcount and revenue.
                   I've held product roles at Google, Better Mortgage, and come from a business background.
                 </p>
-                <p>I studied at Harvard College and Harvard Business School.</p>
+                <p>I hold an MBA from Harvard Business School and a BA from Harvard College.</p>
                 <p>
                   I work best with leaders who want clear thinking and real
                   execution, not more decks.

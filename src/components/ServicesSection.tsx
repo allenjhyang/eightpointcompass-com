@@ -6,24 +6,24 @@ export function ServicesSection() {
 
   const services = [
     {
-      title: 'AI Strategy & Roadmapping',
+      title: 'Portfolio AI Assessment',
       description:
-        "For companies that want to stay ahead of AI-native startups in their space. I work with leadership teams to audit the current product, strategy and operations, identify the highest-leverage AI opportunities, and build a realistic implementation roadmap.",
+        'Evaluating your portfolio for AI risk, opportunity, and cross-company leverage, including diligence support on new deals. I assess competitive threats, identify where product roadmaps need to evolve, spot opportunities for shared platform investments, and conduct AI-focused due diligence on prospective acquisitions.',
+    },
+    {
+      title: 'AI Strategy to Product Roadmap',
+      description:
+        "Working with the C-suite to set AI strategy, then translating it into a product roadmap and cross-functional execution plan. This starts with educating leadership on what's real in AI for their specific market, then pressure-testing company strategy, prioritizing the 3-5 highest-value initiatives, and producing a concrete roadmap the team can execute against.",
+    },
+    {
+      title: 'AI-Native Product Development Operating Model',
+      description:
+        'Redesigning how the Product team works with an AI-first operating model. I assess how the team operates today, design an operating model that embeds AI into discovery, prioritization, and the build cycle, and evaluate AI adoption across the broader organization. For engagements spanning Product and Engineering, I bring in a partner to cover Eng Ops.',
     },
     {
       title: 'Fractional Product Leadership',
       description:
-        "For companies that need senior product leadership. I embed with your team to set product direction, improve execution cadence, and make sure what you're building maps to business outcomes.",
-    },
-    {
-      title: 'Portfolio AI Assessment',
-      description:
-        'For PE firms evaluating AI readiness across portfolio companies. I run structured assessments that surface where AI can drive value creation, flag risks, and identify patterns across the portfolio, giving deal and ops teams a clearer picture of the opportunities and risks.',
-    },
-    {
-      title: 'Operational AI Integration',
-      description:
-        "For companies wanting to shift to the new AI-native way of working. Most AI value isn't in building new products, it's in making your existing operations faster, cheaper, or smarter. I help teams identify and implement AI across internal workflows.",
+        "For companies that need senior product leadership but aren't ready for a full-time hire. I embed with the team to set product direction, improve execution cadence, and make sure what you're building maps to business outcomes. This can include defining and hiring for a permanent CPO role and designing the interview process.",
     },
   ]
 
@@ -38,9 +38,7 @@ export function ServicesSection() {
             Services Offered
           </h2>
           <p className="font-body text-lg text-epc-charcoal leading-relaxed">
-            Every company is being told they need an AI strategy. The harder
-            question is which investments actually drive defensibilty, margin, or velocity, and how to execute against them without blowing up
-            what already works.
+            I work across four levels of engagement, from fund-level portfolio assessment to company strategy to hands-on operating model design to embedded product leadership. Each is designed to meet companies where they are.
           </p>
         </div>
 
